@@ -3,28 +3,26 @@
 <head>
   <base target="_top">
   <style>
-       .card-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
+    .card-container {
+      display: block;
+      margin: 0 auto;
+      width: 80%; /* Atur lebar card container */
     }
 
     .card {
       background-color: #fff;
       border-radius: 8px;
-      width: 150px; /* Lebar card persegi */
-      height: 150px; /* Tinggi card persegi */
+      width: 100%; /* Lebar card mengikuti container */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       text-align: center;
-      margin: 10px;
+      margin-bottom: 20px; /* Berikan jarak antar card */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
       transition: transform 0.2s, box-shadow 0.2s;
       position: relative;
-      padding: 10px 0; /* Tambahkan padding vertikal */
+      padding: 20px 0; /* Tambahkan padding vertikal */
     }
 
     .card:hover {
@@ -33,9 +31,11 @@
     }
 
     .card img {
-      width: 50%;
+      width: 20%; /* Atur ukuran gambar agar lebih sesuai */
       height: auto;
-      margin-top: 10px;
+      margin-top: 20px; /* Geser gambar ke tengah */
+      margin-bottom: 10%; /* Geser gambar ke tengah */
+      align-self: center; /* Posisikan gambar di tengah */
       flex-shrink: 0;
     }
 
@@ -67,22 +67,22 @@
   </style>
 </head>
 <body><br><br>
-  <div class="judul">SANTRI MINTOL</div>
-  <marquee>Ini adalah ujicoba sistem untuk mengetahui kekuatan jaringan dan merevisi fitur sesuai dengan kebutuhan untuk santri mintol</marquee><br><br>
+  <div class="judul">Deals Basmah Minhajut Tholabah</div>
+  <marquee>Anak-anak Mintol Purbalingga memimpin pengembangan aplikasi digital dengan kreativitas dan semangat tinggi. Dari aplikasi edukasi hingga platform mediasosial, mereka menghubungkan komunitas lokal dan memajukan teknologi. Saksikan bagaimana inovasi mereka membawa dampak positif bagi masyarakat dan membuka peluang baru!</marquee><br><br>
   <div class="card-container">
-      <div class="card">
+    <div class="card">
       <img src="https://cdn-icons-png.flaticon.com/512/220/220621.png" alt="Icon 2">
       <button onclick="window.location.href='https://wa.me/message/DSJWVVKPO3AVJ1'">Go to Whatsapp</button>
     </div>
-     <div class="card">
+    <div class="card">
       <img src="https://cdn-icons-png.freepik.com/256/4782/4782345.png?semt=ais_hybrid" alt="Icon 2">
       <button onclick="window.location.href='https://www.tiktok.com/@minthol.dealsbasmah?_t=8oSKt6NHn5V&_r=1'">Go to Tik-tok</button>
     </div>
-     <div class="card">
+    <div class="card">
       <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-facebook-icon-social-media-logo-png-image_9015413.png" alt="Icon 2">
       <button onclick="window.location.href='https://facebook.com'">Go to Facebook</button>
     </div>
-     <div class="card">
+    <div class="card">
       <img src="https://cdn-icons-png.freepik.com/256/3955/3955024.png?semt=ais_hybrid" alt="Icon 2">
       <button onclick="window.location.href='https://instagram.com/pondokminthol_official/?hl=en'">Go to Instagram</button>
     </div>
@@ -104,29 +104,25 @@
     </div>
     <div class="card">
       <img src="https://i.pinimg.com/564x/c0/58/d9/c058d9363c94cd8263306688fe30d3ee.jpg" alt="Icon 1">
-      <button onclick="window.location.href='https://www.google.com'">Go to Foto 1</button>
+      <button onclick="window.location.href='https://www.google.com'">Go to Foto 2</button>
     </div>
     <div class="card">
       <img src="https://i.pinimg.com/564x/c0/58/d9/c058d9363c94cd8263306688fe30d3ee.jpg" alt="Icon 1">
-      <button onclick="window.location.href='https://www.google.com'">Go to Foto 2</button>
-    </div>
-        <div class="card">
-      <img src="https://i.pinimg.com/564x/c0/58/d9/c058d9363c94cd8263306688fe30d3ee.jpg" alt="Icon 1">
       <button onclick="window.location.href='https://www.google.com'">Go to Foto 3</button>
     </div>
-        <div class="card">
+    <div class="card">
       <img src="https://i.pinimg.com/564x/c0/58/d9/c058d9363c94cd8263306688fe30d3ee.jpg" alt="Icon 1">
       <button onclick="window.location.href='https://www.google.com'">Go to Foto 4</button>
     </div>
-        <div class="card">
+    <div class="card">
       <img src="https://i.pinimg.com/564x/c0/58/d9/c058d9363c94cd8263306688fe30d3ee.jpg" alt="Icon 1">
       <button onclick="window.location.href='https://www.google.com'">Go to Foto 5</button>
     </div>
-      <div class="card">
+    <div class="card">
       <img src="https://i.pinimg.com/564x/c0/58/d9/c058d9363c94cd8263306688fe30d3ee.jpg" alt="Icon 1">
       <button onclick="window.location.href='https://www.google.com'">Go to Foto 6</button>
     </div>
-      <div class="card">
+    <div class="card">
       <img src="https://i.pinimg.com/564x/c0/58/d9/c058d9363c94cd8263306688fe30d3ee.jpg" alt="Icon 1">
       <button onclick="window.location.href='https://www.google.com'">Go to Foto 7</button>
     </div>
@@ -134,8 +130,8 @@
   </div><br><br><br>
   <!-- Footer -->
   <div class="footer">
-   <center>&copy; 2024 Sabtri Mintol Berprestasi. All rights reserved.</center> 
+    <center>&copy; 2024 Deals basmah
+Devolopment of english arabic and life skills.</center>
   </div>
 </body>
 </html>
-
